@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Random quotes</title>
+</head>
+<body class="general">
+
+  <h1 class="general__title visually-hidden">Quotes from famous people</h1>
+
+  <main class="main">
+    <div class="main__wrapper main__layout">
+      <!-- Quote -->
+      <figure class="quote">
+        <blockquote class="quote__wrapper">
+            <p class="quote__text"></p>
+        </blockquote>
+        <figcaption class="quote__author quote__author--hidden"></figcaption>
+      </figure>
+      <!-- Controls -->
+      <div class="controls">
+        <button class="controls__author button" type="button" aria-label="Author of the quote"></button>
+        <button class="controls__listen button" type="button" aria-label="Listen the quote"></button>
+        <button class="controls__copy button" type="button" aria-label="Copy the quote"></button>
+        <button class="controls__generate button" type="button" aria-label="View new quote"></button>
+      </div>
+      <!-- Pop-ups -->
+      <div class="popup popup--hidden">
+        <p class="popup__copied" aria-hidden="true">Copied!</p>
+      </div>
+      <!-- Links -->
+    </div>
+  </main>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
