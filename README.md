@@ -1,4 +1,4 @@
-# Случайные цитаты 
+# [Случайные цитаты](https://ilyachever.github.io/random-quotes/ 'page of the app')
 
 ![](https://i.ibb.co/v4n6Ftz/project.png, 'project')
 
